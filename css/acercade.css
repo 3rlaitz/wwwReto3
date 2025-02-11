@@ -1,0 +1,83 @@
+.title-info {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.global-box-info {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box-info {
+    width: 45%;
+    margin: 2%;
+    background-color: #f9f9f9;
+    padding: 2%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.box-info h3 {
+    color: #007BFF;
+}
+
+.box-info form label {
+    margin-top: 3%;
+    display: block;
+    font-weight: bold;
+}
+
+.box-info form input,
+.box-info form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.box-info form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a6fa6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box-info form button:hover {
+    background-color: #00497f;
+}
+
+.box-info table {
+    width: 100%;
+    margin: 2% auto;
+}
+
+.box-info table,
+.box-info tr,
+.box-info th,
+.box-info td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.box-info th,
+.box-info td {
+    padding: 1%;
+}
+
+.box-info .map {
+    width: 100%;
+    display: flex;
+}
+
+.box-info iframe {
+    margin: auto;
+    width: 400px;
+    height: 250px;
+}

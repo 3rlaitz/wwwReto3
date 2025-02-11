@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web del Reto1 del Grupo 1 WWW">
+    <meta name="author" content="Ieltxu Albin, Erlaitz Alonso, Andoni Alonso, Juan Garcia e Ibai Garcia">
+    <!--Apartado css-->
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/acercade.css">
+    <!--apartado fav icon-->
+    <link rel="icon" href="../img/Logo_muskiz.svg">
+    <script src="/Biblioteca de muskiz/scripts.js"></script>
+    <title>Biblioteca de Muskiz</title>
+</head>
+
+<body>
+    <header class="header">
+        <!--este es el titulo-->
+        <section class="title">
+            <h1> BIBLIOTECA DE MUSKIZ</h1>
+            <!--Aparatado para la pagina de inicio que te redige hacia otro lado-->
+        </section>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="catalogo_1.html">Catálogo</a></li>
+                <li><a href="acercade.html">Acerca de</a></li>
+                <li><a href="login.php">Mi cuenta</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="title-info">Acerca de Nosotros</h2>
+        <section class="global-box-info">
+            <article class="box-info">
+                <h3>Descripción de la Biblioteca</h3>
+                <p>La Biblioteca de Muskiz ofrece una variedad de servicios para la comunidad, incluyendo préstamo de
+                    libros, actividades culturales, y acceso a recursos digitales. También, está comprometida con el
+                    formato de la lectura y la cultura en el municipio de Muskiz.</p>
+                <br>
+                <hr>
+                <br>
+                <h3>Datos de Contacto</h3>
+                <table>
+                    <tr>
+                        <th>Horario</th>
+                        <td>De lunes a viernes, 10:00 - 13:00; 16:00 - 19:45</td>
+                    </tr>
+                    <tr>
+                        <th>Dirección</th>
+                        <td>Cendeja 29. Muskiz, 48550</td>
+                    </tr>
+                    <tr>
+                        <th>Teléfono</th>
+                        <td>946707275</td>
+                    </tr>
+                    <tr>
+                        <th>Whatsapp</th>
+                        <td>688817884</td>
+                    </tr>
+                    <tr>
+                        <th>Correo</th>
+                        <td>biblioteca@muskiz.eus</td>
+                    </tr>
+                </table>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.6289998450925!2d-3.12107562427679!3d43.32202527378804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4ef7ca0c775669%3A0x5e685606625ffe34!2sMuskizko%20Udal%20Liburutegia!5e0!3m2!1ses!2ses!4v1730285013191!5m2!1ses!2ses"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </article>
+            <article class="box-info">
+                <h3>Formulario de Contacto</h3>
+                <form action="#" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required><br>
+
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required><br>
+
+                    <label for="telefono">Número de Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="descripcion">Descripción:</label>
+                    <textarea id="descripcion" name="descripcion" rows="4" placeholder="Estoy interesado en ..."
+                        required></textarea><br><br>
+
+                    <button type="submit" onclick="alert()">Enviar</button>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer-content">
+            <article class="footer-section">
+                <h2>Biblioteca de Muskiz</h2>
+                <p>Tu fuente de conocimiento y entretenimiento en Muskiz.</p>
+                <div class="footer-images">
+                    <div><img src="../img/Logo_muskiz.png" alt="Logo Muskiz"></div>
+                    <div><img src="../img/Imaganes/Logo_govierno vasco.png" alt="Logo Gobierno Vasco"></div>
+                    <div><img src="../img/Imaganes/Logo_www.png" alt="Logo WWW"></div>
+                </div>
+            </article>
+            <article class="footer-section">
+                <h2>Enlaces Rápidos</h2>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                    <li><a href="catalogo_1.html">Catálogo</a></li>
+                    <li><a href="acercade.html">Acerca de</a></li>
+                    <li><a href="login.php">Mi cuenta</a></li>
+                </ul>
+            </article>
+            <article class="footer-section">
+                <h2>Contacto</h2>
+                <p>Email: biblioteca@muskiz.eus</p>
+                <p>Teléfono: +34 946 707 275</p>
+                <p>Dirección: Cendeja 29. Muskiz, 48550 </p>
+            </article>
+        </section>
+        <article class="footer-bottom">
+            &copy; 2024 Biblioteca de Muskiz | Todos los derechos reservados
+        </article>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+main {
+    background-color: #fff;
+}
+
+main h2 {
+    background-color: #f4f4f4;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+main .libro {
+    background-color: white;
+    width: 300px;
+    height: 550px;
+    margin: 1%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+main .titulo {
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+main .texto {
+    margin: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+main .autor {
+    color: rgb(58, 58, 58);
+    text-decoration: wavy;
+    margin: 20px;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+main .imagen {
+    margin: 15px;
+    margin-top: 25px;
+    width: 90%;
+}
+
+main .titulo-catalogo {
+    text-align: center;
+    padding: 20px;
+}
+
+.libro {
+    transition: transform 0.4s ease-in-out; 
+}
+
+.libro:hover {
+    transform: scale(1.1); 
+}
+
+.texto {
+    transition: transform 0.3s ease-in-out; 
+}
+
+.texto:hover {
+    transform: scale(1.02); 
+}
+
+.autor {
+    transition: transform 0.2s ease-in-out; 
+}
+
+.autor:hover {
+    transform: scale(1.02); 
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 884px) {
+    .flex-container {
+        margin-left: 20px;
+        margin-right: 20px;
+        
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 25px;
+    }
+}

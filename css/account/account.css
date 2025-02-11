@@ -1,0 +1,106 @@
+.title-info {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.global-account {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.account-box {
+    width: 65%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.books-box {
+    width: 25%;
+    height: fit-content;
+    margin: 2% auto auto auto;
+    padding: 2%;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.user-info,
+.change-password {
+    padding: 4%;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.user-info {
+    margin-bottom: 3%;
+}
+
+.user-info h2,
+.user-info p {
+    margin-bottom: 1%;
+}
+
+.change-password h2 {
+    margin-bottom: 1%;
+}
+
+label {
+    display: block;
+    margin-top: 1%;
+}
+
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 0.75%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 15px;
+    color: white;
+    background-color: #1a6fa6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00497f;
+}
+
+.logout {
+    background-color: #dc3545;
+}
+
+.logout:hover {
+    background-color: #c82333;
+}
+
+.book-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.book-img {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.book-box img {
+    width: 50%;
+}
+
+.book-box p {
+    width: 40%;
+    margin: 0;
+}
